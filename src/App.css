@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #05182E;
+  --secondary-color: #1E88E5;
+  --accent-color: #F5A623;
+  --text-color: #1C1C1C;
+  --background-color: #fff;
+  --hover-sec-color: #164FE0;
+  --hover-accent-color: #F7B731;
+  --active-class-color: #0D47A1;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+}

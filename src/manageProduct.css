@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #05182E;
+  --secondary-color: #1E88E5;
+  --accent-color: #F5A623;
+  --text-color: #1C1C1C;
+  --background-color: #fff;
+  --hover-sec-color: #164FE0;
+  --hover-accent-color: #F7B731;
+  --active-class-color: #0D47A1;
+}
+
+.manage-product {
+  background-color: #f1f1f1;
+  color: var(--text-color);
+  width: 70%;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border;
+}
+.product-card {
+  border-bottom: 1px solid #ccc;
+  margin-top: 5px;
+}
+.product-card .top img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+.product-card .top, 
+.product-card .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card .bottom p {
+  font-size: 1.5rem;
+}
+.product-card .bottom button {
+  background-color: red;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
