@@ -138,13 +138,14 @@
 
 @media (max-width: 600px) {
   .products-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 5px;
     gap: 5px;
     justify-content: center;
     align-items: center;
-    box-sizing: border;
+    box-sizing: border-box;
   }
 
   .card {
@@ -167,9 +168,9 @@
     height: auto;
     display: block;
     border-radius: 8px;
-    object-fit: cover;
     margin: auto;
     margin-bottom: 4px;
+    box-sizing: border-box;
   }
 
   .actions {
