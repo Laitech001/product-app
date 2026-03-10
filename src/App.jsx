@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import './index.css'
-import Header from './header'
+import Header from './components/header'
 import Products from './products'
 import AddProduct from './AddProduct'
-import ManageProduct from './manageProduct'
+import ManageProduct from './dashboard/manageProduct'
 
 function App() {
 

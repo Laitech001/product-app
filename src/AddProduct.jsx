@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './AddProduct.css'
 import { useNavigate} from 'react-router-dom'
 
